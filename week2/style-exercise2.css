@@ -1,0 +1,23 @@
+.csym019 {
+    background-color: lightblue;
+    display: block;
+     width: 500px;
+     float: left;
+
+}
+.csym015 {
+    background-color: yellow;
+    display: block;
+     width: 500px;
+    float: left;
+}
+h1{
+    color: black;
+}
+h2{
+    color: black;
+}
+p{
+     color:black;
+     
+} 

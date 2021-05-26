@@ -1,0 +1,25 @@
+.part1 h2 {
+color: red;
+}
+.part1 p{
+    background-color: black;
+    color: white;
+    display: inline;
+}
+.part2 p{
+color: green;
+background-color: darkred;
+display: inline;
+}
+.part2 h2{
+    color: green;
+}
+.part3 p{
+    color: green;
+}
+.part4 p{
+    color: green;
+}
+.div-1 p{
+    color: black;
+}
