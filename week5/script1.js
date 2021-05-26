@@ -1,13 +1,15 @@
-function myclickEvent (){
+function myInterval (){
    var element = document.getElementById('circle');
-   var circleOpacity = parseFloat(element.style.opacity);
-   element.style.opacity = circleOpacity - 0.1;
+   var circleOpacity = element.style.opacity;
+   element.style.opacity = circleOpacity - 0.01;
 }
-
+function myclickEvent(){
+    setInterval(myInterval, 10);
+}
 function myLoadEvent (){
     var element = document.getElementById('circle');
     element.addEventListener('click', myclickEvent);
-    element.style.opacity = 0.5;
+    element.style.opacity = 1;
 }
 
 document.addEventListener('DOMContentLoaded', myLoadEvent);
