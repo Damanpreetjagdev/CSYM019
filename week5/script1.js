@@ -1,11 +1,6 @@
 function myclickEvent (){
    var element = document.getElementById('circle');
-   element.style.backgroundColor = 'blue'
+   element.style.opacity = 0.5;
 }
 
-function myLoadFunction () {
-    var element = document.getElementById('circle');
-    element.addEventListener('click', myclickEvent);
-}
-
-document.addEventListener('DOMContentLoaded', myLoadFunction);
+document.addEventListener('DOMContentLoaded', myclickEvent);
