@@ -1,15 +1,12 @@
-function myInterval (){
+function myKeyDown (){
    var element = document.getElementById('circle');
-   var circleOpacity = element.style.opacity;
-   element.style.opacity = circleOpacity - 0.01;
+   var positionLeft = element.offsetLeft;
+
+   element.style.left = positionLeft - 10 + 'px';
 }
-function myclickEvent(){
-    setInterval(myInterval, 10);
-}
+
 function myLoadEvent (){
-    var element = document.getElementById('circle');
-    element.addEventListener('click', myclickEvent);
-    element.style.opacity = 1;
+    document.addEventListener('keydown', myKeyDown);
 }
 
 document.addEventListener('DOMContentLoaded', myLoadEvent);
