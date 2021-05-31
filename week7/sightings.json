@@ -1,0 +1,17 @@
+{
+    "sightings": [
+        {
+            "id": 1,
+            "animal": "Hare",
+            "number": 4,
+            "location": "LibRoof",
+            "date": "01-01-2021",
+            "time": "12:00:00",
+            "observer": {
+                "name": "Damanpreet Kaur",
+                "email": "daman24@gmail.com"
+            },
+            "observations": "White hare seen drinking from the rain water collected in the playground."
+        }
+    ] 
+}
